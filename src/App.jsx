@@ -7,7 +7,8 @@ import "./App.css";
 import UseOfUseEffect from "./components/hooks/UseOfUseEffect";
 import UseOfUseContext from "./components/hooks/UseOfUseContext";
 import UseOfUseDefferedValue from "./components/hooks/UseOfUseDefferedValue";
-import UseOfUserActionState from "./components/hooks/UseOfUserActionState";
+//mport UseOfUserActionState from "./components/hooks/UseOfUserActionState";
+import UseOfUseCallback from "./components/hooks/UseOfUseCallback";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         {/* <UseOfUseEffect /> */}
         {/* <UseOfUseContext /> */}
         {/* <UseOfUseDefferedValue /> */}
-        <UseOfUserActionState />
+        {/* <UseOfUserActionState /> */}
+        <UseOfUseCallback />
       </section>
     </>
   );
