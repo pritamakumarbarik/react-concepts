@@ -19,7 +19,7 @@ const UseOfUserActionState = () => {
     <>
       <form action={formAction}>
         <input name="email" type="text" placeholder="Enter your email" />
-
+        <br />
         <button type="submit" disabled={isPending}>
           {isPending ? "Submitting.." : "Submit"}
         </button>
