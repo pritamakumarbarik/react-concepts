@@ -9,6 +9,7 @@ import UseOfUseContext from "./components/hooks/UseOfUseContext";
 import UseOfUseDefferedValue from "./components/hooks/UseOfUseDefferedValue";
 //mport UseOfUserActionState from "./components/hooks/UseOfUserActionState";
 import UseOfUseCallback from "./components/hooks/UseOfUseCallback";
+import UseOfUseDebugValue from "./components/hooks/UseOfUseDebugValue";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
         {/* <UseOfUseContext /> */}
         {/* <UseOfUseDefferedValue /> */}
         {/* <UseOfUserActionState /> */}
-        <UseOfUseCallback />
+        {/* <UseOfUseCallback /> */}
+        {/* <UseOfUseDebugValue /> */}
       </section>
     </>
   );
